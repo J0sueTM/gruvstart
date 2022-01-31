@@ -1,0 +1,94 @@
+/*
+ * file: index.html
+ * author: Spencer Linkous
+ * modifier: Josue Teodoro Moreira <teodoro.josue@protonmail.ch>
+ * date: 31 January, 2021
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+:root {
+  --dark0: #1d2021;
+  --dark1: #282828;
+  --light: #ebdbb2;
+
+  --red: #cc241d;
+  --orange: #d65d0e;
+  --yellow: #d79921;
+  --green: #689d6a;
+  --purple: #b16286;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--dark1);
+  color: var(--light);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+  
+  background-color: var(--dark0);
+}
+
+main h1 {
+  margin-bottom: 10px;
+
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 800;
+}
+
+main form {
+  width: 100%;
+}
+
+main form input {
+  width: 60%;
+  height: 30px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  outline-width: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--dark1);
+
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 20px;
+  color: var(--light);
+}
+
+#colours {
+  width: 100%;
+  max-width: 800px;
+  height: 10px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  background-image: linear-gradient(to right, var(--red) 0%, var(--red) 20%, var(--orange) 20%, var(--orange) 40%, var(--yellow) 40%, var(--yellow) 60%, var(--green) 60%, var(--green) 80%, var(--purple) 80%, var(--purple) 100%);
+}

@@ -1,5 +1,5 @@
 /*
- * file: index.html
+ * file: style/index.css
  * author: Spencer Linkous
  * modifier: Josue Teodoro Moreira <teodoro.josue@protonmail.ch>
  * date: 31 January, 2021
@@ -61,11 +61,7 @@ main h1 {
   font-weight: 800;
 }
 
-main form {
-  width: 100%;
-}
-
-main form input {
+main input {
   width: 60%;
   height: 30px;
 
